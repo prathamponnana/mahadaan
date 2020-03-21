@@ -1,0 +1,83 @@
+html,body{
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+span{
+    color: red ;
+}
+/* NAV-BAR SECTION */
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lilita One', cursive;
+    color: #c81912 !important;
+}
+.nav-link {
+    margin-left:8px ;
+    color:#000 !important;  
+}
+.nav-link:hover{
+    color: whitesmoke !important;
+} 
+
+.forBackgroundImg{
+    background: url(https://images.unsplash.com/photo-1572470615886-dca9d7e809f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80), url(backgroundImg.jpg);
+} 
+
+
+
+/* CONTAINER AFTER NAV-BAR */
+
+.afterNavSec {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto; 
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+/* CARD SECTION STYLING */
+
+.row {
+    padding: 10% 5%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff0f2;  
+}
+.card {
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+.card-header {
+    background-color: red;
+}
+.btn {
+    background-color: #c81912;
+}
+
+.btn:hover{
+    background-color: red;
+}
+ 
+/* BOTTOM SECTION */
+
+#bottomSection {
+    background-color: #c81912;
+}
+.socialIcons{
+    width: 50px;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+.socialIcons:hover{
+    color: whitesmoke;
+}
